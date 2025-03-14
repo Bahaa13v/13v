@@ -18,4 +18,4 @@ elif hos == "archiso":
   bash.run(["bash", "shell/arc.sh"])
 
 else:
-    print("13Vtools currently support only debian and Arch")
+    print("bahaa support only debian and Arch")
