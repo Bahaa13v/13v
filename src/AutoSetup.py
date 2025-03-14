@@ -14,7 +14,7 @@ elif hos == "Arch":
 
 elif hos == "archiso":
 
-    bash.run(["chmod", "+x", "shell/arc.sh"])
+  bash.run(["chmod", "+x", "shell/arc.sh"])
   bash.run(["bash", "shell/arc.sh"])
 
 else:
