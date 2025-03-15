@@ -3,6 +3,6 @@
 sudo pacman -Sy
 sudo pacman -S git
 mkdir gits && cd gits
-git clone https://github.com/Bahaa13v/Arch.git
+git clone https://github.com/bahaa13v/archiso.git
 cd Arch && chmod +x *
 bash Arch.sh
