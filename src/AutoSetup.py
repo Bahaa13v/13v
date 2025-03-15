@@ -4,8 +4,9 @@ hos = bash.run(["cat", "/etc/hostname"], capture_output=True, text=True).stdout.
   
 if hos == "debian":
 
-  bash.run(["chmod", "+x", "src/shell/debian.sh"])
-  bash.run(["bash", "src/shell/debian.sh"])
+   print("hi")
+#  bash.run(["chmod", "+x", "src/shell/debian.sh"])
+#  bash.run(["bash", "src/shell/debian.sh"])
 
 elif hos == "Arch":
 
