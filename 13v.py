@@ -37,6 +37,8 @@ def main(stdscr):
                 break
             elif menu[selected_row_idx] == "AutoSetup":
                 return "AutoSetup"
+            elif menu[selected_row_idx] == "Hyprland":
+                return "Hyprland"
 result = curses.wrapper(main)
 if result == "AutoSetup":
     subprocess.run(["python3", "src/AutoSetup.py"])
