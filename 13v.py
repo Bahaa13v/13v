@@ -1,7 +1,7 @@
 import curses
 import subprocess
 
-menu = ["AutoSetup", "Exit"]
+menu = ["AutoSetup", "Hyprland", "Exit"]
 
 def draw_menu(stdscr, selected_row_idx):
     stdscr.clear()
@@ -40,3 +40,5 @@ def main(stdscr):
 result = curses.wrapper(main)
 if result == "AutoSetup":
     subprocess.run(["python3", "src/AutoSetup.py"])
+elif result == "Hyprland":
+    subprocess.run(["python3", "src/Hyprland.py"])
