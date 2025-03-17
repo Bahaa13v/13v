@@ -8,4 +8,4 @@ os.chdir(f"{wd}/src/hypr")
 if hos == "debian":
   bash.run(["bash", "debian.sh"])
 elif hos == "Arch":
-  bash.run(["cat", "arch.sh"])
+  bash.run(["bash", "arch.sh"])
